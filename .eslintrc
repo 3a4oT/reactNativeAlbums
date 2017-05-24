@@ -10,6 +10,7 @@
     "react/sort-comp": 0,
     "react/jsx-filename-extension": 0,
     "flow-vars/define-flow-type": 1,
+    "react/prop-types": 0, # we use 'flow' for it.
     "flow-vars/use-flow-type": 1
   },
   "plugins": [

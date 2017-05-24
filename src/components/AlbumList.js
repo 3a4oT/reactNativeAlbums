@@ -7,7 +7,7 @@ import AlbumDetail from './AlbumDetail';
 import type { Album } from './AlbumDetail';
 
 class AlbumList extends Component {
-  static hostURL : string = 'https://rallycoding.herokuapp.com/api/music_albums';
+  static hostURL: string = 'https://rallycoding.herokuapp.com/api/music_albums';
 
   state : {
     albums: ?Album[],
