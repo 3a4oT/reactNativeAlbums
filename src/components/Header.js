@@ -1,8 +1,7 @@
-// Import Lib
+/* @flow */
 import React from 'react';
 import { Text, View } from 'react-native';
 
-// Make Component
 const Header = (props) => {
   const { textStyle, viewStyle } = styles;
   return (
@@ -30,6 +29,4 @@ const styles = {
   }
 };
 
-
-//Make  the component avaible for other parts of the app
 export default Header;
