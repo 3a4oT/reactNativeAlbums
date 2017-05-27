@@ -1,8 +1,13 @@
 ### Demo project for practice with React Native.
-I developing this project under macOS and running  mostly for iOS and using ***Atom Nuclide IDE***.
-Assume that [Homebrew](https://brew.sh), [Node.js](https://nodejs.org/), [NPM](https://www.npmjs.com) are installed.
+I developing it using ***[Nuclide IDE](https://nuclide.io)*** under macOS and running  mostly for iOS.
+Assume that **Xcode**, [Homebrew](https://brew.sh), [Node.js](https://nodejs.org/), [NPM](https://www.npmjs.com) are installed.
 
-Clone first:
+Install [Flow](https://flow.org)
+> npm install --global flow-bin@0.46.0
+
+Atom has ESLint support via plugging.  If you want to have nice diagnostic in your code just install [linter-eslint plugging](https://atom.io/packages/linter-eslint). Project has all configuration for it. 
+
+Clone project:
 > git clone git@github.com:3a4oT/reactNativeAlbums.git
 
 Go to project dir:
